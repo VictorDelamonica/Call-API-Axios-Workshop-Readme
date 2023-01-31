@@ -50,7 +50,7 @@ Vérifiez que Node.js est installé correctement en utilisant la commande :
 ```bash
 node -v
 ```
-
+---
 ### Fedora:
 
 Ouvrez un terminal et mettez à jour les paquets en utilisant la commande :
@@ -91,6 +91,8 @@ Axios est un module JavaScript qui permet de faire des requêtes HTTP (comme des
 
 > [Axios-Getting-Started](https://axios-http.com/docs/intro) | [Axios-Exemple](https://axios-http.com/docs/example)
 
+---
+
 ### Exercice 2: Poster des informations sur une base de données
 
 > [json-server](https://www.npmjs.com/package/json-server)
@@ -126,6 +128,9 @@ Ce deuxième exercice nécessite l’utilisation d’une nouvelle requête d'axi
         console.log(error);
       });
     ```
+
+---
+    
 ### Exercice 3: Supprimer un post sur la base de données
 
 Maintenant que vous avez posté avec succès vos infos sur la base de données, il vous reste plus qu’à le supprimer. Pour ça, vous devez vous y prendre exactement pareil que pour les exercices précédents, mais vous allez devoir utiliser une autre requête d'Axios vous permettant de supprimer votre précédent post.
