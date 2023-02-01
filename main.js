@@ -19,3 +19,8 @@ axios.get('https://api.open-meteo.com/v1/forecast?latitude=43.70&longitude=7.27&
         // always executed
     }
 );
+
+axios.post('/post', {
+
+})
+    .then()
